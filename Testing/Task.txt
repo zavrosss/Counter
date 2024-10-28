@@ -1,0 +1,28 @@
+Celem zadania jest przygotowanie aplikacji w .NET MAUI "Counter"
+
+Projekt ma zostaæ wstawiony jako publiczny na GitHub i przes³any za pomoc¹ formularza:
+https://forms.office.com/e/rQN7g5gL0K
+
+Podstaw¹ oceny jest prezentacja projektu na lekcji
+
+Na ocene dopuszczaj¹c¹:
+-Aplikacja ma mieæ na sztywno jeden licznik, który ma przycisk plus/minus i wartoœæ
+-Licznik ma zwiêkszaæ i zmniejszaæ swoj¹ wartoœæ po wciœniêciu odpowiedniego przycisku
+
+Na ocene dostateczn¹:
+-Aplikacja ma mieæ mo¿liwoœæ dynamicznego dodawania liczników
+-Ka¿dy licznik powinien byæ te¿ opatrzony nazw¹
+
+Na ocene dobr¹:
+-Aplikacja powinna wczytywaæ zapisane stany liczników na starcie aplikacji
+-Aplikacja powinna posiadaæ system zapisu wartoœci liczników
+
+Na ocenê bardzo dobr¹:
+-Aplikacja powinna mieæ system auto-zapisu po ka¿dej zmianie wartoœci licznika
+-Aplikacja powinna umo¿liwiaæ nadanie wartoœci pocz¹tkowej licznikowi ( tylko przy twoarzeniu licznika, nie w trakcie jego u¿ytkowania)
+
+Na ocenê celuj¹c¹:
+-Aplikacja powinna mieæ mo¿liwoœæ personalizacji koloru licznika (te¿ ma byæ ta informacja wczytywana)
+-Aplikacja powinna przechowywaæ dane w bardziej sensownej formie ni¿ pliki txt np .xml lub ewentualnie .json, bazy danych lokalnej (SQLite), lub bazy zewnêtrznej (np. FireBase) itp.
+-Aplikacja powinna mieæ mo¿liwoœæ resetowania liczników do wartoœci pocz¹tkowej podanej przy tworzeniu licznika
+-Aplikacja powinna mieæ mo¿liwoœæ usuniêcia licznika

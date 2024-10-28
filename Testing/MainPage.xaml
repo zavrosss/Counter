@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Testing.MainPage">
+
+    <StackLayout Padding="20">
+        <Label Text="Nazwa licznika:" />
+        <Entry x:Name="CounterNameEntry" Placeholder="Wprowadź nazwę licznika" />
+
+        <Label Text="Wartość początkowa:" />
+        <Entry x:Name="InitialValueEntry" Placeholder="Wprowadź wartość początkową" Keyboard="Numeric" />
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button Text="Dodaj licznik" Clicked="OnAddCounterClicked" />
+            <Button Text="Usuń wszystkie liczniki" Clicked="OnDeleteAllCountersClicked" />
+        </StackLayout>
+
+        <StackLayout x:Name="CounterContainer" />
+    </StackLayout>
+</ContentPage>
